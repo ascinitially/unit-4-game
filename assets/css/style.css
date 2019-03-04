@@ -1,0 +1,29 @@
+.jumbotron {
+    text-align:center;
+    text-shadow: 20px;
+    background-color:#165c28;
+    font-family: 'Impact';
+    width:75%;
+    margin:auto;
+}
+
+.wrapper {
+    width: 80%;
+    margin: auto;
+    text-align:center;
+}
+
+.mushies {
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+
+
+}
+
+.clickable {
+    border:2px solid brown;
+    height:150px;
+    width: 150px;
+
+}
