@@ -3,6 +3,7 @@
     text-shadow: 20px;
     background-color:#165c28;
     font-family: 'Impact';
+    color: #c47d20;
     width:75%;
     margin:auto;
 }
@@ -16,6 +17,7 @@
 .mushies {
     display:flex;
     align-items:center;
+    float:center;
 
 
 }
