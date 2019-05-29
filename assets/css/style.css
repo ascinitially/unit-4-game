@@ -1,77 +1,36 @@
-/* label {
-} */
-
-* {
+.jumbotron {
     text-align:center;
-    font-family: 'Maven Pro', sans-serif;
-    
-}
-.title {
-    background-color:rgba(56, 130, 180, 0.767);
-    color:white;
-    padding:20px;
-    margin-bottom: 20px;
-    border-bottom: 2px solid rgb(135, 216, 135);
-    
-}
-.card {
-    border:2px solid rgba(56, 130, 180, 0.767);
-    color:rgba(33, 51, 63, 0.767)
-}
-.trans {
-    color:rgba(33, 51, 63, 0.767)
-}
-.start, .restart {
-    width:100px;
-    border:2px solid rgba(56, 130, 180, 0.767);
-    /* display:block; */
-    border-radius:5px;
-    color:rgb(135, 216, 135);
+    text-shadow: 20px;
+    background-color:#165c28;
+    font-family: 'Impact';
+    color: #c47d20;
+    width:75%;
     margin:auto;
-    margin-top:20px;
-    padding:10px;
-    /* place-content: center; */
 }
 
-.countdown {
-    font-size:40px;
+.wrapper {
+    width: 80%;
+    margin: auto;
+    text-align:center;
+}
+
+.mushies {
+    display:flex;
+    align-items:center;
+    float:center;
+    justify-content: center;
+
 
 }
 
-.countdownUrgent {
-    color:red;
-}
-.question {
-    font-size:24px;
+.clickable {
+    border:2px solid brown;
+    height:150px;
+    width: 150px;
+    margin: 5px;
+
 }
 
-.opt {
-    width:200px;
-    font-size:18px;
-    margin:auto;
-    padding:5px;
-}
-.option1 {
-    margin-top:20px;
-}
-
-.option4 {
-    margin-bottom:10px;
-}
-
-label:hover {
-    cursor: pointer;
-    background-color: rgb(135, 216, 135);
-}
-
-.start:hover{
-    cursor: pointer;
-    background-color: rgb(135, 216, 135);
-    color:white;
-}
-
-.restart:hover{
-    cursor: pointer;
-    background-color: rgb(135, 216, 135);
-    color:white;
+.wins .losses {
+    display:float
 }
